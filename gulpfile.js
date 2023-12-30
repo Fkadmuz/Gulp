@@ -7,6 +7,7 @@ const image = require('gulp-image')
 const stripJs = require('gulp-strip-comments')
 const stripCss = require('gulp-strip-css-comments')
 
+
 function tarefasCSS(cb) {
 
     return gulp.src([
